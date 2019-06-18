@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		8057BE0322B926F500217E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE0222B926F500217E41 /* AppDelegate.swift */; };
-		8057BE0522B926F500217E41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE0422B926F500217E41 /* ViewController.swift */; };
 		8057BE0822B926F500217E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8057BE0622B926F500217E41 /* Main.storyboard */; };
 		8057BE0A22B926F900217E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8057BE0922B926F900217E41 /* Assets.xcassets */; };
 		8057BE0D22B926F900217E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8057BE0B22B926F900217E41 /* LaunchScreen.storyboard */; };
+		8057BE1A22B9277F00217E41 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE1422B9277F00217E41 /* ProductListViewController.swift */; };
+		8057BE1B22B9277F00217E41 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE1522B9277F00217E41 /* Post.swift */; };
+		8057BE1C22B9277F00217E41 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE1622B9277F00217E41 /* PostViewController.swift */; };
+		8057BE1D22B9277F00217E41 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE1722B9277F00217E41 /* Product.swift */; };
+		8057BE1E22B9277F00217E41 /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE1822B9277F00217E41 /* PostListViewController.swift */; };
+		8057BE1F22B9277F00217E41 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE1922B9277F00217E41 /* ProductViewController.swift */; };
+		8057BE2322B92C7600217E41 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE2222B92C7600217E41 /* JSONParsing.swift */; };
+		8057BE2522B93CA200217E41 /* XMLParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE2422B93CA200217E41 /* XMLParsing.swift */; };
+		8057BE2722B9448C00217E41 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE2622B9448C00217E41 /* ProductTableViewCell.swift */; };
+		8057BE2922B9578300217E41 /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE2822B9578300217E41 /* HTTP.swift */; };
+		8057BE2B22B9583E00217E41 /* HPlusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8057BE2A22B9583E00217E41 /* HPlusService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8057BDFF22B926F500217E41 /* Lynda_RequestingDataHTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lynda_RequestingDataHTTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8057BE0222B926F500217E41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8057BE0422B926F500217E41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8057BE0722B926F500217E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8057BE0922B926F900217E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8057BE0C22B926F900217E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8057BE0E22B926F900217E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8057BE1422B9277F00217E41 /* ProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		8057BE1522B9277F00217E41 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8057BE1622B9277F00217E41 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		8057BE1722B9277F00217E41 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8057BE1822B9277F00217E41 /* PostListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
+		8057BE1922B9277F00217E41 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		8057BE2222B92C7600217E41 /* JSONParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsing.swift; sourceTree = "<group>"; };
+		8057BE2422B93CA200217E41 /* XMLParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParsing.swift; sourceTree = "<group>"; };
+		8057BE2622B9448C00217E41 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		8057BE2822B9578300217E41 /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		8057BE2A22B9583E00217E41 /* HPlusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPlusService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +75,39 @@
 			isa = PBXGroup;
 			children = (
 				8057BE0222B926F500217E41 /* AppDelegate.swift */,
-				8057BE0422B926F500217E41 /* ViewController.swift */,
 				8057BE0622B926F500217E41 /* Main.storyboard */,
 				8057BE0922B926F900217E41 /* Assets.xcassets */,
 				8057BE0B22B926F900217E41 /* LaunchScreen.storyboard */,
 				8057BE0E22B926F900217E41 /* Info.plist */,
+				8057BE2022B927F300217E41 /* Products */,
+				8057BE2122B927FE00217E41 /* Posts */,
+				8057BE2222B92C7600217E41 /* JSONParsing.swift */,
+				8057BE2422B93CA200217E41 /* XMLParsing.swift */,
+				8057BE2822B9578300217E41 /* HTTP.swift */,
+				8057BE2A22B9583E00217E41 /* HPlusService.swift */,
 			);
 			path = Lynda_RequestingDataHTTP;
+			sourceTree = "<group>";
+		};
+		8057BE2022B927F300217E41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8057BE1722B9277F00217E41 /* Product.swift */,
+				8057BE1422B9277F00217E41 /* ProductListViewController.swift */,
+				8057BE1922B9277F00217E41 /* ProductViewController.swift */,
+				8057BE2622B9448C00217E41 /* ProductTableViewCell.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		8057BE2122B927FE00217E41 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				8057BE1522B9277F00217E41 /* Post.swift */,
+				8057BE1822B9277F00217E41 /* PostListViewController.swift */,
+				8057BE1622B9277F00217E41 /* PostViewController.swift */,
+			);
+			path = Posts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +181,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8057BE0522B926F500217E41 /* ViewController.swift in Sources */,
+				8057BE1E22B9277F00217E41 /* PostListViewController.swift in Sources */,
+				8057BE1A22B9277F00217E41 /* ProductListViewController.swift in Sources */,
+				8057BE2322B92C7600217E41 /* JSONParsing.swift in Sources */,
 				8057BE0322B926F500217E41 /* AppDelegate.swift in Sources */,
+				8057BE2922B9578300217E41 /* HTTP.swift in Sources */,
+				8057BE1B22B9277F00217E41 /* Post.swift in Sources */,
+				8057BE1C22B9277F00217E41 /* PostViewController.swift in Sources */,
+				8057BE1F22B9277F00217E41 /* ProductViewController.swift in Sources */,
+				8057BE2722B9448C00217E41 /* ProductTableViewCell.swift in Sources */,
+				8057BE1D22B9277F00217E41 /* Product.swift in Sources */,
+				8057BE2B22B9583E00217E41 /* HPlusService.swift in Sources */,
+				8057BE2522B93CA200217E41 /* XMLParsing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
